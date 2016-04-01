@@ -1,0 +1,21 @@
+settings = {
+        orientation = {
+                default = "portrait",
+                supported = {
+                        "portraitUpsideDown", "portrait"
+                },
+        },
+
+        iphone = {
+	        plist =
+	        {
+	            CFBundleDisplayName = "SoundSwipe",
+	            CFBundleName = "SoundSwipe",
+	            CFBundleIconFiles = {},  -- Required
+	            UIApplicationExitsOnSuspend = false,
+	            UIPrerenderedIcon = true,
+	            UIStatusBarHidden = true,
+	            MinimumOSVersion = "7.0",
+	        },
+    },
+}
